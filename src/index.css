@@ -238,15 +238,15 @@
   font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
-  box-sizing: border-box;
-  background-color: #1e2538;
   font-family: 'Qanelas';
-  background: #1E2538 url(./assets/images/Background.png) no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  max-width: 1440px;
 }
 
 h1,h2,h3,h4,h5,h6 {

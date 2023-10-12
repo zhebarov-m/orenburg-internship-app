@@ -1,0 +1,5 @@
+.bak {
+  background: #1E2538 url(./assets/images/Background.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

@@ -1,6 +1,20 @@
 .filmText {
   color: white;
-
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  .crumbs {
+    display: flex;
+    gap: 10px;
+    a {
+      color: #4F5B7C;
+      text-decoration: none;
+      transition: 0.15s;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
   h2 {
     font-size: 65px;
   }
@@ -13,5 +27,31 @@
     cursor: pointer;
     margin-left: 28px;
   }
-  
+  .rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin: 10px 0;
+  }
+  button {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 20px 36px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.15s;
+    &:hover {
+      background-color: #ffffff30;
+    }
+  }
+  p {
+    margin: 0 0 30px 0;
+  }
 }

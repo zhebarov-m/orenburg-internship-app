@@ -1,8 +1,10 @@
 .container {
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    height: 53px;
-    margin: 20px 0;
-    display: flex;
+    height: 83px;
+    padding: 20px 0;
     align-items: center;
+    position: relative;
 }

@@ -29,7 +29,7 @@ export default function SearchModal({ open, handleOpen, handleClose }) {
   };
 
   return (
-    <div>
+    <>
       <Modal
         open={open}
         onClose={handleClose}
@@ -53,6 +53,6 @@ export default function SearchModal({ open, handleOpen, handleClose }) {
           />
         </Box>
       </Modal>
-    </div>
+    </>
   );
 }
